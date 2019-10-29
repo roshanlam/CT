@@ -1,18 +1,15 @@
-package de.dhiller.babel.translator.yandex.xml;
-
+package de.roshanlam.ct.translator.yandex.xml;
 import java.util.List;
-
 import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement(name="Translation")
+
 public class Translation {
-
+    
     private String code;
-
     private String encoding;
-
     private List<String> text;
-
+    
     public String getCode() {
         return code;
     }
