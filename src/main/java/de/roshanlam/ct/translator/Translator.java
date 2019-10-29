@@ -5,17 +5,14 @@ import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
 import com.mashape.unirest.request.HttpRequest;
-import de.dhiller.babel.translator.yandex.xml.Translation;
+import de.roshanlam.ct.translator.yandex.xml.Translation;
 import org.apache.http.entity.ContentType;
-
 import java.io.StringReader;
 import java.util.List;
 import java.util.Locale;
-
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
-
 import static com.google.common.base.Throwables.propagate;
 
 public class Translator {
